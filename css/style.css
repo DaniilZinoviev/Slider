@@ -81,6 +81,20 @@ body {
     background-color: #fff;
     color: #333;
 }
+
+@media(max-width: 500px) {
+    .slide .content {
+        bottom: -300px;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+    }
+    .slide.current .content {
+        opacity: 1;
+        transform: translateY(-300px);
+    }
+}
+
 /* Background images */
 .slide:first-child {
     background: url('../img/photo-1.jpg') no-repeat center center/cover;
