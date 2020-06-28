@@ -1,3 +1,3 @@
 # Slider
 
-Created slider without any libraries, jQuery etc
+Created slider without any libraries, jQuery etc.
